@@ -1,5 +1,8 @@
 module.exports = {
   ssr: true,
+  generate: {
+    dir: "public"
+  },
   /*
    ** Headers of the page
    */
